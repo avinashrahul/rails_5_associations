@@ -5,7 +5,7 @@ class CreateProgrammers < ActiveRecord::Migration[5.0]
       t.integer :experience
       t.integer :is_senior
       t.integer :friend_id
-      t.references :friend, foreign_key: true
+      t.references :programmer, foreign_key: true
 
       t.timestamps
     end

@@ -5,11 +5,11 @@ one:
   experience: 1
   is_senior: 1
   friend_id: 1
-  friend: one
+  programmer: one
 
 two:
   programmer: MyString
   experience: 1
   is_senior: 1
   friend_id: 1
-  friend: two
+  programmer: two
