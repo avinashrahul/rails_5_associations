@@ -1,3 +1,3 @@
 class Programmer < ApplicationRecord
-  belongs_to :programmer
+  has_and_belongs_to_many :technologies
 end
